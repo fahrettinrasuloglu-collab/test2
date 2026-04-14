@@ -21,6 +21,8 @@ import {
   Hammer,
   Truck,
   Trash2,
+  Shield,
+  Flame,
   Loader2,
   RefreshCcw,
   Camera,
@@ -53,6 +55,8 @@ const PROFESSIONS: Profession[] = [
   { id: 'blacksmith', label: 'Demirci', icon: <Hammer className="w-6 h-6" />, prompt: 'a master blacksmith forging epic steel in a traditional workshop with glowing embers' },
   { id: 'scrapper', label: 'Hurdacı', icon: <Truck className="w-6 h-6" />, prompt: 'a successful recycling entrepreneur managing a high-tech scrap metal yard' },
   { id: 'trash_collector', label: 'Çöpçü', icon: <Trash2 className="w-6 h-6" />, prompt: 'a dedicated environmental sanitation professional in a clean future city' },
+  { id: 'police', label: 'Polis', icon: <Shield className="w-6 h-6" />, prompt: 'a brave and respected police officer in a high-tech future police uniform' },
+  { id: 'firefighter', label: 'İtfaiyeci', icon: <Flame className="w-6 h-6" />, prompt: 'a heroic firefighter in advanced protective gear in front of a modern fire truck' },
   { id: 'industry', label: 'Sanayi Devrimcisi', icon: <User className="w-6 h-6" />, prompt: 'a powerful industrial leader in a clean-tech factory' },
 ];
 
