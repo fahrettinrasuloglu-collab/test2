@@ -1,0 +1,11 @@
+{
+  "name": "Gelecekteki Sen",
+  "description": "Yüklediğin fotoğrafı analiz ederek seni gelecekteki mesleğinle (doktor, futbolcu, astronot vb.) gösteren yapay zeka uygulaması.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "image_generation",
+    "image_analysis"
+  ]
+}
